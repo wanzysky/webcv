@@ -1,0 +1,6 @@
+[build-system]
+requires = [
+    "quart",
+    "opencv-python"
+]
+build-backend = "setuptools.build_meta"
