@@ -60,7 +60,6 @@ def _set_server_quart(conn, name, port):
                     delay, info_lst = package
                     await websocket.send(json.dumps((time.time(), package_alive, delay, info_lst)))
                     if package_alive:
-                        print("waiting delay", delay)
                         message = await websocket.receive()
                         if message is None:
                             break
@@ -71,7 +70,6 @@ def _set_server_quart(conn, name, port):
                         except:
                             traceback.print_exc()
                             message = -1
-                        print("message", message)
                         conn.send(message)
                         package_alive = False
             except asyncio.CancelledError:
