@@ -11,7 +11,7 @@ This project is based on [quart](https://pgjones.gitlab.io/quart/index.html) tha
 
 ## Sample Usage
 
-![screenshot](screen_shot.png)
+
 
 ```python
 
@@ -40,6 +40,24 @@ webcv.table_show("versions", [
 webcv.waitKey()
 ```
 
+By running the code above, your terminal will display something like:
+
+```
+#####################################################################
+#                                                                   #
+#   The server is running at: http://my-server-ip:4732   #
+#                                                                   #
+#####################################################################
+ * Serving Quart app 'webcv'
+ * Environment: production
+ * Please use an ASGI server (e.g. Hypercorn) directly in production
+ * Debug mode: False
+ * Running on http://0.0.0.0:4732 (CTRL + C to quit)
+```
+
+Copy paste the address into your browser to view (you may need ssh forward if you are using a remote server):
+
+![screenshot](screen_shot.png)
 ## Acknowledgement
 
 The project was inspired by a Megvii tool.
