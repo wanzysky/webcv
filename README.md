@@ -45,7 +45,7 @@ By running the code above, your terminal will display something like:
 ```
 #####################################################################
 #                                                                   #
-#   The server is running at: http://my-server-ip:4732   #
+#   The server is running at: http://my-server-ip:4732              #
 #                                                                   #
 #####################################################################
  * Serving Quart app 'webcv'
