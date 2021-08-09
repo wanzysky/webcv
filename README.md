@@ -1,6 +1,6 @@
 # Webcv
 
-Webcv is a simple wrapper that can implements displaying images, text, and tables via web browsers.
+Webcv is a simple wrapper that implements displaying images, text, and tables via web browsers.
 
 This project is based on [quart](https://pgjones.gitlab.io/quart/index.html) that requires python 3.7+. For older version of Python, please use [webcv-gevent](https://github.com/wanzysky/webcv-gevent) instead.
 
